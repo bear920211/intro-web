@@ -23,6 +23,7 @@ h1 {
 .subtitle {
   font-size: 24px;
   margin-top: 10px;
+  color: #007c91;
 }
 
 .description {
@@ -48,6 +49,7 @@ h1 {
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 76, 102, 0.3);
 }
+
 
 
 
