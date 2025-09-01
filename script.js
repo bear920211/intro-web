@@ -1,5 +1,8 @@
-document.getElementById("toggleResume").addEventListener("click", function () {
+function toggleResume() {
   const section = document.getElementById("resumeSection");
-  section.style.display = section.style.display === "none" ? "flex" : "none";
-  this.textContent = section.style.display === "none" ? "查看履歷" : "收起履歷";
-});
+  const button = document.querySelector(".cta");
+  const isHidden = section.style.display === "none" || section.style.display === "";
+
+  section.style.display = isHidden ? "block" : "none";
+  button.textContent = isHidden ? "收起履歷" : "更多的我";
+}
