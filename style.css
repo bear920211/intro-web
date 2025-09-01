@@ -50,17 +50,16 @@ h1 {
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 76, 102, 0.3);
 }
-
 .resume-layout {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
   max-width: 1000px;
-  margin: 40px 0 40px 40px;
+  margin: 40px auto; /* 水平置中 */
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
+  text-align: left; /* ← 這行確保整體文字不會被置中 */
 }
-
 .resume-left {
   flex: 1;
   min-width: 280px;
@@ -132,10 +131,16 @@ h1 {
 * {
   box-sizing: border-box;
 }
+.resume-left,
+.resume-right,
 .resume-layout h2,
 .resume-layout h3,
 .resume-layout p,
 .resume-layout ul,
 .resume-layout li {
   text-align: left;
+}
+.resume-wrapper {
+  display: flex;
+  justify-content: center;
 }
