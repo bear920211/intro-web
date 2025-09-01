@@ -59,6 +59,8 @@ h1 {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   text-align: left; /* ← 這行確保整體文字不會被置中 */
+  justify-content: space-between;
+  gap: 40px; /* 可選，增加左右間距 */
 }
 .resume-left {
   flex: 1;
@@ -92,6 +94,7 @@ h1 {
     flex-direction: column;
   }
   .resume-left, .resume-right {
+    flex: 1; 
     min-width: 100%;
     border-right: none;
     border-bottom: 2px solid #ccc;
@@ -144,3 +147,4 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
