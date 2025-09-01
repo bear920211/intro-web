@@ -51,7 +51,14 @@ h1 {
   box-shadow: 0 6px 12px rgba(0, 76, 102, 0.3);
 }
 
-
+#jobIntro {
+  display: none; /* 預設隱藏 */
+  background-color: #f9fbe7;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
 
 
 
