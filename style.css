@@ -8,7 +8,6 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #e0f7fa;
   color: #007c91;
-  text-align: center;
 }
 
 .hero {
@@ -132,3 +131,4 @@ h1 {
 * {
   box-sizing: border-box;
 }
+
