@@ -1,8 +1,5 @@
-function showIntro() {
-  const intro = document.getElementById('jobIntro');
-  const isHidden = intro.style.display === 'none' || intro.style.display === '';
-  intro.style.display = isHidden ? 'block' : 'none';
-  if (isHidden) {
-    intro.scrollIntoView({ behavior: 'smooth' });
-  }
-}
+document.getElementById("toggleResume").addEventListener("click", function () {
+  const section = document.getElementById("resumeSection");
+  section.style.display = section.style.display === "none" ? "flex" : "none";
+  this.textContent = section.style.display === "none" ? "查看履歷" : "收起履歷";
+});
