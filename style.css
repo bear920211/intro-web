@@ -119,13 +119,16 @@ h1 {
   margin-bottom: 8px;
 }
 #resumeSection {
+  display: none;
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
-
 #resumeSection.show {
-  display: block;
+  display: flex; /* ← 這裡用 flex 才能維持左右排版 */
   opacity: 1;
   transform: translateY(0);
+}
+* {
+  box-sizing: border-box;
 }
