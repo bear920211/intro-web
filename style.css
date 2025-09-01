@@ -13,6 +13,7 @@ body {
 
 .hero {
   padding: 100px 20px;
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
 }
 
 h1 {
@@ -49,6 +50,7 @@ h1 {
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 76, 102, 0.3);
 }
+
 
 
 
