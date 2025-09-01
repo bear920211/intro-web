@@ -51,34 +51,40 @@ h1 {
   box-shadow: 0 6px 12px rgba(0, 76, 102, 0.3);
 }
 
-#jobIntro {
-  display: none; /* 預設隱藏 */
-  background-color: #f9fbe7;
-  padding: 2rem;
-  border-radius: 12px;
-  margin-top: 1rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-.resume-card {
-  background-color: #fdfdfd;
-  padding: 30px 40px;
-  border-left: 6px solid #00acc1;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  margin: 40px 0;
+.resume-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 40px auto;
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
 }
 
-.resume-card h2 {
-  color: #00acc1;
-  margin-bottom: 20px;
+.resume-left {
+  flex: 1;
+  min-width: 280px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-right: 2px solid #ccc;
 }
 
-.resume-card h3 {
+.resume-right {
+  flex: 2;
+  min-width: 400px;
+  padding: 20px;
+}
+
+.resume-left h2 {
+  margin-bottom: 10px;
+  color: #00acc1;
+}
+
+.resume-layout h3 {
   margin-top: 20px;
   color: #333;
 }
 
-.resume-card ul {
+.resume-layout ul {
   padding-left: 20px;
 }
