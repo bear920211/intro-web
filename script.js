@@ -1,8 +1,13 @@
 function toggleResume() {
   const section = document.getElementById("resumeSection");
-  const button = document.querySelector(".cta");
-  const isHidden = section.style.display === "none" || section.style.display === "";
+  const button = document.getElementById("toggleResume");
+  const isHidden = !section.classList.contains("show");
 
-  section.style.display = isHidden ? "block" : "none";
-  button.textContent = isHidden ? "收起履歷" : "更多的我";
+  if (isHidden) {
+    section.classList.add("show");
+    button.textContent = "收起履歷";
+  } else {
+    section.classList.remove("show");
+    button.textContent = "更多的我";
+  }
 }
