@@ -1,4 +1,6 @@
-function toggleIntro() {
-  const intro = document.getElementById("jobIntro");
-  intro.style.display = intro.style.display === "none" ? "block" : "none";
-}
+<script>
+  function showIntro() {
+    const intro = document.getElementById('jobIntro');
+    intro.style.display = 'block';
+  }
+</script>
