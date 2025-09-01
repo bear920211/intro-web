@@ -2,6 +2,8 @@
   width: 150px;
   border-radius: 50%;
   margin-bottom: 1rem;
+  display: block;
+  margin: 0 auto 1rem auto;
 }
 body {
   margin: 0;
@@ -10,10 +12,6 @@ body {
   color: #007c91;
 }
  .hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;     /* 水平置中 */
-  justify-content: center; /* 垂直置中（如果有高度） */
   padding: 100px 20px;
   background: linear-gradient(to bottom, #e0f7fa, #ffffff);
   text-align: center;
@@ -134,5 +132,6 @@ h1 {
 * {
   box-sizing: border-box;
 }
+
 
 
