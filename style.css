@@ -154,11 +154,13 @@ h1 {
 .resume-wrapper {
   padding: 40px 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start; /* ← 原本是 center，改成靠左 */
+  padding-left: 80px;          /* ← 加一點左邊空間，讓內容往右偏 */
 }
 .container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
 }
+
 
