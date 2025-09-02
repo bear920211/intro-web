@@ -60,7 +60,6 @@ h1 {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   text-align: left; /* ← 這行確保整體文字不會被置中 */
-  justify-content: center;
 }
 .resume-left h2 {
   margin-bottom: 10px;
@@ -164,3 +163,4 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
