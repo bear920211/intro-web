@@ -112,7 +112,7 @@ h1 {
   }
    .resume-left,
   .resume-right {
-    flex: 0 0 48%; 
+    width: 48%; 
   }
 
   .resume-left {
@@ -145,17 +145,18 @@ h1 {
   margin-bottom: 8px;
 }
 #resumeSection {
-  display: flex;
+  display: none;
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
-  max-height: 0;
-  overflow: hidden;
 }
 #resumeSection.show {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   opacity: 1;
   transform: translateY(0);
-  max-height: 2000px; /* 足夠容納內容 */
 }
 * {
   box-sizing: border-box;
@@ -177,5 +178,3 @@ h1 {
   margin: 0 auto;
   padding: 0 20px;
 }
-
-
