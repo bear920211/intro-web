@@ -182,3 +182,7 @@ h1 {
   display: flex;
   justify-content: center;
 }
+#resumeSection.show .resume-left,
+#resumeSection.show .resume-right {
+  flex: 0 0 48%;
+}
