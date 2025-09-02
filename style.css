@@ -60,7 +60,6 @@ h1 {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   text-align: left; /* ← 這行確保整體文字不會被置中 */
-  transform: translateX(-20px); /* 👈 往左偏移 20px */
 }
 .resume-left h2 {
   margin-bottom: 10px;
@@ -156,11 +155,10 @@ h1 {
 .resume-wrapper {
   padding: 40px 0;
   display: flex;
-  justify-content: flex-start; /* ← 原本是 center，改成靠左 */
-  padding-left: 80px;          /* ← 加一點左邊空間，讓內容往右偏 */
-}
+  justify-content: center;
 .container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
 }
+
