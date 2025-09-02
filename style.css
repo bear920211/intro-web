@@ -60,6 +60,7 @@ h1 {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   text-align: left; /* ← 這行確保整體文字不會被置中 */
+  transform: translateX(-20px); /* 👈 往左偏移 20px */
 }
 .resume-left h2 {
   margin-bottom: 10px;
@@ -162,5 +163,6 @@ h1 {
   margin: 0 auto;
   padding: 0 20px;
 }
+
 
 
