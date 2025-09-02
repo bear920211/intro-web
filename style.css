@@ -93,12 +93,34 @@ h1 {
 @media screen and (max-width: 768px) {
   .resume-layout {
     flex-direction: column;
+    padding: 0 20px;
   }
   .resume-left, .resume-right {
-    flex: 1; 
     min-width: 100%;
     border-right: none;
     border-bottom: 2px solid #ccc;
+  }
+}
+@media screen and (min-width: 769px) {
+  .resume-layout {
+    display: flex;
+    justify-content: center; /* ✅ 讓整體內容置中 */
+    max-width: 1000px;
+    margin: 40px auto;
+    gap: 40px;
+  }
+   .resume-left,
+  .resume-right {
+    flex: 0 0 48%; /* ✅ 左右平均分配空間 */
+  }
+
+  .resume-left {
+    border-right: 2px solid #ccc;
+    padding-right: 20px;
+  }
+
+  .resume-right {
+    padding-left: 20px;
   }
 }
 #toggleResume {
@@ -149,5 +171,6 @@ h1 {
   justify-content: center;
   padding: 40px 0;
 }
+
 
 
