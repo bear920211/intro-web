@@ -151,10 +151,7 @@ h1 {
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 #resumeSection.show {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: block;
   opacity: 1;
   transform: translateY(0);
 }
@@ -186,3 +183,4 @@ h1 {
 #resumeSection.show .resume-right {
   flex: 0 0 48%;
 }
+
