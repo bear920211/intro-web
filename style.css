@@ -104,14 +104,14 @@ h1 {
 @media screen and (min-width: 769px) {
   .resume-layout {
     display: flex;
-    justify-content: center; /* ✅ 讓整體內容置中 */
+    justify-content: space-between;
     max-width: 1000px;
     margin: 40px auto;
     gap: 40px;
   }
    .resume-left,
   .resume-right {
-    flex: 0 0 48%; /* ✅ 左右平均分配空間 */
+    flex: 0 0 48%; 
   }
 
   .resume-left {
@@ -167,8 +167,6 @@ h1 {
   text-align: left;
 }
 .resume-wrapper {
-  display: flex;
-  justify-content: center;
   padding: 40px 0;
 }
 .container {
@@ -176,6 +174,3 @@ h1 {
   margin: 0 auto;
   padding: 0 20px;
 }
-
-
-
