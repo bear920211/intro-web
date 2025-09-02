@@ -60,7 +60,7 @@ h1 {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   text-align: left; /* ← 這行確保整體文字不會被置中 */
-  justify-content: space-between;
+  justify-content: center;
   gap: 40px; /* 可選，增加左右間距 */
 }
 .resume-left {
@@ -112,7 +112,7 @@ h1 {
   }
    .resume-left,
   .resume-right {
-    width: 48%; 
+    width: calc(50% - 20px); 
   }
 
   .resume-left {
@@ -178,3 +178,4 @@ h1 {
   margin: 0 auto;
   padding: 0 20px;
 }
+
