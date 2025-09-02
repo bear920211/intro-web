@@ -103,6 +103,7 @@ h1 {
   .resume-left {
     border-right: 2px solid #ccc;
     padding-right: 20px;
+    padding-left: 20px; /* 👈 這才是有效的微調位置 */
   }
 
   .resume-right {
@@ -163,7 +164,3 @@ h1 {
   margin: 0 auto;
   padding: 0 20px;
 }
-.left-section {
-  padding-left: 20px; /* 👈 往右推一點點 */
-}
-
