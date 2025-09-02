@@ -61,7 +61,7 @@ h1 {
   line-height: 1.6;
   text-align: left; /* ← 這行確保整體文字不會被置中 */
   justify-content: center;
-  gap: 40px; /* 可選，增加左右間距 */
+  gap: 40px auto; /* 可選，增加左右間距 */
 }
 .resume-left {
   flex: 1;
@@ -112,7 +112,7 @@ h1 {
   }
    .resume-left,
   .resume-right {
-    width: calc(50% - 20px); 
+   flex: 0 0 48%; 
   }
 
   .resume-left {
@@ -178,4 +178,7 @@ h1 {
   margin: 0 auto;
   padding: 0 20px;
 }
-
+.resume-container {
+  display: flex;
+  justify-content: center;
+}
