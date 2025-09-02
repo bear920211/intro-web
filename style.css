@@ -62,20 +62,6 @@ h1 {
   text-align: left; /* ← 這行確保整體文字不會被置中 */
   justify-content: center;
 }
-.resume-left {
-  flex: 1;
-  min-width: 280px;
-  background-color: #f7f7f7;
-  padding: 20px;
-  border-right: 2px solid #ccc;
-}
-
-.resume-right {
-  flex: 2;
-  min-width: 400px;
-  padding: 20px;
-}
-
 .resume-left h2 {
   margin-bottom: 10px;
   color: #00acc1;
@@ -182,4 +168,5 @@ h1 {
 #resumeSection.show .resume-right {
   flex: 0 0 48%;
 }
+
 
